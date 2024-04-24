@@ -22,7 +22,11 @@ To get started with this boilerplate, follow these steps:
 4. Install project dependencies:
     ```bash
     npm install
-5. Start the development server:
+5. Create the database in your SQL server.
+6. Run database migrations to create necessary tables:
+    ```bash
+    npx sequelize-cli db:migrate
+7. Start the development server:
    ```bash
    npm run start
 # Contributing
